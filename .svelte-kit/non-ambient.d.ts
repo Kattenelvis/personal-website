@@ -40,6 +40,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/aero" | "/aero/" | "/demo" | "/demo/" | "/demo/paraglide" | "/demo/paraglide/" | "/skills" | "/skills/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/robots.txt" | string & {};
+		Asset(): "/React_Logo.png" | "/Svelte_Logo.png" | "/Vue_Logo.png" | "/isdp06kzkz9g1.mp4" | "/robots.txt" | string & {};
 	}
 }

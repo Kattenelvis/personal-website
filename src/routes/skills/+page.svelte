@@ -1,3 +1,7 @@
+<script>
+	import Skill from '$lib/Skill.svelte';
+</script>
+
 <div>
 	I have a lot of technical skills I will mention here, in case anyone is interested in some
 	service. Frontend I am primarily experienced as a front-end developer, I love Svelte
@@ -9,24 +13,23 @@
 </div>
 
 <div class="flex gap-2">
-	<div class="inline-block border border-white p-4">
-		<img alt="svelte-logo" width="40px" src="Svelte_Logo.png" />
-	</div>
-	<div class="inline-block border border-white p-4">
-		<img alt="react-logo" width="40px" src="React_Logo.png" />
-	</div>
-	<div class="inline-block border border-white p-4">
-		<img alt="vue-logo" width="40px" src="Vue_Logo.png" />
-	</div>
+	<Skill logo={'Svelte_Logo.png'} alt="Svelte Logo" />
+	<Skill logo={'Vue_Logo.png'} alt="Vue Logo" />
+	<Skill logo={'React_Logo.png'} alt="React Logo" />
 </div>
 
-<div>
-	When it comes to styling I know CSS, SCSS (Saas) and of course Tailwind that everyone is always on
-	about. (Some more logos here)
-</div>
+<div class="flex flex-col gap-6">
+	<div>
+		When it comes to styling I know CSS, SCSS (Saas) and of course Tailwind that everyone is always
+		on about. (Some more logos here)
+	</div>
 
-<div>
-	Typescript is nice. I used to hate Javascript because of all the issues with ===, but the Just in
-	time compilation of many Javascript runtimes makes up for it. Typescript also makes life so much
-	easier.
+	<div>
+		Typescript is nice. I used to hate Javascript because of all the issues with ===, but the Just
+		in time compilation of many Javascript runtimes makes up for it. Typescript also makes life so
+		much easier.
+	</div>
+
+	<div>Linux is Awesome</div>
+	<Skill logo={'NixOS.webp'} alt="NixOS Logo" />
 </div>
