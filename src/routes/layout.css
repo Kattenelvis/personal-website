@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
+
+.gradient {
+  background: #2b8eff;
+  background: linear-gradient(180deg,
+      rgba(43, 142, 255, 1) 0%,
+      rgba(56, 0, 102, 1) 61%,
+      rgba(24, 107, 39, 1) 85%,
+      rgba(86, 227, 187, 1) 100%);
+}
