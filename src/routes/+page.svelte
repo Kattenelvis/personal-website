@@ -1,4 +1,4 @@
-<div class="gradient h-[100vh] bg-red-300">
+<div class="gradient h-screen bg-red-300">
 	<h1>Welcome to SvelteKit</h1>
 	<p>
 		Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation
@@ -17,7 +17,7 @@
 	<form>
 		<div>Contact me!</div>
 		<input class="block" type="text" placeholder="Name" />
-		<textarea class="mt-2 block" placeholder="Message" />
+		<textarea class="mt-2 block" placeholder="Message"></textarea>
 	</form>
 </div>
 
