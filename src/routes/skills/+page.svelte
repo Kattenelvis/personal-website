@@ -3,7 +3,7 @@
 </script>
 
 <main class="flex justify-center bg-purple-600">
-	<div class="w-[70vw] max-w-[1000px] bg-gray-800 p-6">
+	<div class="w-[70vw] max-w-250 bg-gray-800 p-6 shadow-xl shadow-black">
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
 			service. Frontend I am primarily experienced as a front-end developer, I love Svelte
