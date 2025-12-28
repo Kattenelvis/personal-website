@@ -30,6 +30,15 @@
 		much easier.
 	</div>
 
+	<img src="Javascript.png" width="680px" alt="Cursed Javascript" />
+
 	<div>Linux is Awesome</div>
-	<Skill logo={'NixOS.webp'} alt="NixOS Logo" />
+
+	<img src="Rotating_Tux.gif" width="180px" alt="Rotating Linux Penguin" />
+	<div class="flex gap-2">
+		<Skill logo={'NixOS.webp'} alt="NixOS Logo" />
+		<Skill logo={'Linux_Mint.png'} alt="Linux Mint Logo" />
+		<Skill logo={'Arch_Linux.png'} alt="Arch Logo" />
+		<Skill logo={'Hyprland.png'} alt="Hyprland Logo" />
+	</div>
 </div>
