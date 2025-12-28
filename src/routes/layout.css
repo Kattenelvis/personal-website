@@ -1,6 +1,20 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 
+/*
+Source - https://stackoverflow.com/a
+Posted by nayemalways, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-28, License - CC BY-SA 4.0
+*/
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
 .gradient {
   background: #2b8eff;
   background: linear-gradient(180deg,

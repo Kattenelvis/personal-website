@@ -13,7 +13,7 @@
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">Scratch</a>
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">GitHub</a>
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">Philosophy Blog</a>
-		<a class="gradient" href="/fruigier">Fruity!</a> <br />
+		<a class="gradient" href="/aero">Fruity!</a> <br />
 	</div>
 
 	<form>
