@@ -1,4 +1,5 @@
-<div class="gradient h-screen">
+<div class="gradient h-screen text-gray-300">
+	<a href="/">Go Back</a> <br />
 	<div>Fruity!</div>
 
 	From the fruitiger aero page on the aesthethics wiki:

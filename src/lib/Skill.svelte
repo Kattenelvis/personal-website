@@ -2,8 +2,8 @@
 	let { logo = '', alt = '' } = $props();
 </script>
 
-<div class="skill-shadow inline-block border border-white p-4">
-	<img {alt} width="40px" src={logo} />
+<div class="skill-shadow flex border border-white p-4 align-middle">
+	<img {alt} width="40px" height="40px" src={logo} />
 </div>
 
 <style>

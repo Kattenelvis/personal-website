@@ -1,4 +1,4 @@
-<div class="h-screen">
+<main class="h-screen bg-gray-800 text-gray-300">
 	Hello! I am Kattenelvis (or Emil)
 
 	<!-- TODO: They all go to soundcloud, fix later -->
@@ -21,4 +21,4 @@
 		<input class="block" type="text" placeholder="Name" />
 		<textarea class="mt-2 block" placeholder="Message"></textarea>
 	</form>
-</div>
+</main>
