@@ -1,4 +1,5 @@
 <script>
+	import Cellular from '$lib/Cellular.svelte';
 	import Link from '$lib/Link.svelte';
 </script>
 
