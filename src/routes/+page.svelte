@@ -3,14 +3,14 @@
 	import Link from '$lib/Link.svelte';
 </script>
 
-<main class="cell-bg-color-match relative min-h-screen text-gray-300">
+<main class="cell-bg-color-match relative min-h-screen pb-6 text-gray-300">
 	<div class="pointer-events-none relative z-10 m-auto max-w-250">
-		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-3xl sm:text-6xl">
+		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-2xl sm:text-6xl">
 			Hello! I am Kattenelvis (or Emil)
 		</h1>
 
 		<div
-			class="edge m-auto mt-12 flex w-full flex-col rounded-2xl bg-blue-600 p-4 font-bold text-shadow-purple-600 text-shadow-xs sm:w-[80%] sm:p-6 md:w-[70%]"
+			class="edge pointer-events-auto m-auto mt-12 flex w-full flex-col rounded-2xl bg-blue-600 p-4 font-bold text-shadow-purple-600 text-shadow-xs sm:w-[80%] sm:p-6 md:w-[70%]"
 		>
 			<span>
 				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
@@ -24,7 +24,9 @@
 			</span>
 		</div>
 
-		<div class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6">
+		<div
+			class="edge pointer-events-auto m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6"
+		>
 			<Link name="GitHub" href="https://github.com/kattenelvis" logo="Github.svg" />
 			<Link name="Soundcloud" href="https://soundcloud.com/katten-elvis" logo="soundcloud.svg" />
 			<Link name="YouTube" href="https://www.youtube.com/@kattenelvis1778" logo="YouTube.svg" />
@@ -35,13 +37,24 @@
 				logo="Phi.svg"
 			/>
 		</div>
+
 		<div class="my-12 flex w-full flex-col justify-between gap-6 sm:flex-row">
-			<video class="m-auto" src="mysite.mp4" loop autoplay width="200px">
+			<video class="pointer-events-auto m-auto" src="mysite.mp4" loop autoplay width="200px">
 				<track kind="captions" />
 			</video>
 
-			<img class="m-auto" src="niko-oneshot.gif" width="200px" alt="Clippy tapping the screen" />
-			<img class="m-auto" src="clippy.gif" width="200px" alt="Clippy tapping the screen" />
+			<img
+				class="pointer-events-auto m-auto"
+				src="niko-oneshot.gif"
+				width="200px"
+				alt="Clippy tapping the screen"
+			/>
+			<img
+				class="pointer-events-auto m-auto"
+				src="clippy.gif"
+				width="200px"
+				alt="Clippy tapping the screen"
+			/>
 		</div>
 	</div>
 	<Cellular Class="z-0 top-0 absolute bottom-0" />

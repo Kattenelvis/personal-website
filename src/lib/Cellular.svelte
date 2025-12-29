@@ -43,7 +43,7 @@
 		automata.style.display = 'grid';
 		automata.style.gridTemplateColumns = `repeat(${X}, 1fr)`;
 		automata.style.gridTemplateRows = `repeat(${Y}, 1fr)`;
-		interval = setInterval(gameTick, 20);
+		interval = setInterval(gameTick, 100);
 	});
 
 	onDestroy(() => {
@@ -56,7 +56,6 @@
 	{#each grid as y, i}
 		{#each y as x, j}
 			<div
-				class="highlight"
 				onmouseenter={() => {
 					grid[i][j] = 0;
 				}}
@@ -65,15 +64,3 @@
 		{/each}
 	{/each}
 </div>
-
-<style>
-	/* .automata { */
-	/* 	display: grid; */
-	/* 	grid-column: repeat(1fr, var(--X)); */
-	/* 	grid-row: repeat(1fr, var(--Y)); */
-	/* 	width: 100vw; */
-	/* } */
-	.highlight:hover {
-		/* box-shadow: inset 0 0 20px 1px white; */
-	}
-</style>
