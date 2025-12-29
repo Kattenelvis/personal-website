@@ -9,11 +9,12 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<header class="fixed z-50 w-full">
-	<nav class="flex gap-2 bg-gray-800 p-2 text-white">
+<header class="sticky top-0 z-50 w-full">
+	<nav class="flex gap-3 bg-gray-900 p-3 text-white">
 		<a class="glassy" href="/">Home</a>
 		<a class="gradient glassy" href="/aero">Fruity!</a>
-		<a class="glassy bg-purple-600" href="/skills">Skills!</a>
+		<a class="glassy bg-purple-600" href="/skills">Skills</a>
+		<a class="glassy bg-green-500" href="/contact">Contact</a>
 	</nav>
 </header>
 
@@ -25,6 +26,10 @@
 		</a>
 	{/each}
 </div>
+
+<footer class="bg-gray-900 text-gray-300">
+	<span class="block p-6"> Copyright-Free 2025 Emil. No Rights Reserved. </span>
+</footer>
 
 <style>
 	.glassy {

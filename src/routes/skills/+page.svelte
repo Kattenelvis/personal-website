@@ -2,7 +2,7 @@
 	import Skill from '$lib/Skill.svelte';
 </script>
 
-<main class="flex justify-center bg-purple-600 text-gray-300 shadow-xl">
+<main class="flex justify-center bg-purple-600 text-gray-300">
 	<div class="w-[70vw] max-w-250 bg-gray-800 p-6 shadow-xl shadow-black">
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
@@ -51,11 +51,12 @@
 			<li>Databases</li>
 			<li>Formal Verification, Logic, Haskell</li>
 			<li>Playwright testing and so on</li>
-			<li>CI/CD</li>
+			<li>CI/CD, Docker stuff</li>
 			<li>Python, Data Analysis, RL, Multi-agent modelling</li>
-			<li>Low level (Rust)</li>
+			<li>Low level (Rust, C++)</li>
 			<li>Game Dev</li>
-			<li>Computer Science</li>
+			<li>IDE's like Neovim</li>
+			<li>Computer Science, Math</li>
 			<li>Blockchain</li>
 		</ul>
 	</div>
