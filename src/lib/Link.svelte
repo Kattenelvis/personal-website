@@ -2,8 +2,10 @@
 	let { href = '', logo = '' } = $props();
 </script>
 
-{#if logo}
-	<img src={logo} alt={`logo for ${href}`} />
-{/if}
+<div class="flex gap-2">
+	{#if logo}
+		<img width="20px" src={logo} alt={`logo for ${href}`} />
+	{/if}
 
-<a {href} target="_blank">GitHub</a>
+	<a {href} target="_blank">GitHub</a>
+</div>
