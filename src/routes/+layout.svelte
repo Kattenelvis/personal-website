@@ -10,7 +10,7 @@
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
 <header class="sticky top-0 z-50 w-full">
-	<nav class="flex gap-3 bg-gray-900 p-3 text-white">
+	<nav class="flex gap-3 bg-gray-800 p-3 text-white">
 		<a class="glassy" href="/">Home</a>
 		<a class="gradient glassy" href="/aero">Fruity!</a>
 		<a class="glassy bg-purple-600" href="/skills">Skills</a>
@@ -27,7 +27,7 @@
 	{/each}
 </div>
 
-<footer class="bg-gray-900 text-gray-300">
+<footer class="bg-gray-800 text-gray-300">
 	<span class="block p-6"> Copyright-Free 2025 Emil. No Rights Reserved. </span>
 </footer>
 

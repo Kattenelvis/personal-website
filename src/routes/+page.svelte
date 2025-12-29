@@ -1,20 +1,32 @@
-<main class="min-h-screen bg-gray-800 text-gray-300">
-	<h1 class="w-full text-center text-5xl">Hello! I am Kattenelvis (or Emil)</h1>
+<main class="vaporwave min-h-screen text-gray-300">
+	<h1 class="w-full pt-12 text-center font-[Vorpal] text-6xl">Hello! I am Kattenelvis (or Emil)</h1>
 
 	<div class="mt-6 flex w-full justify-between">
 		<video class="m-auto" src="mysite.mp4" loop autoplay width="200px">
 			<track kind="captions" />
 		</video>
 
-		<img class="m-auto" src="clippy.gif" alt="Clippy tapping the screen" />
+		<img class="m-auto" src="niko-oneshot.gif" width="200px" alt="Clippy tapping the screen" />
+		<img class="m-auto" src="clippy.gif" width="200px" alt="Clippy tapping the screen" />
 	</div>
-	<!-- TODO: They all go to soundcloud, fix later -->
-	<div class="flex flex-col">
-		<a href="https://soundcloud.com/katten-elvis" target="_blank">Soundcloud</a>
-		<a href="https://soundcloud.com/katten-elvis" target="_blank">Youtube</a>
-		<a href="https://soundcloud.com/katten-elvis" target="_blank">Scratch</a>
-		<a href="https://soundcloud.com/katten-elvis" target="_blank">GitHub</a>
-		<a href="https://thephilosophyaddict.wordpress.com/" target="_blank">Philosophy Blog</a>
+	<div class="edge m-auto mt-6 flex w-[70%] flex-col rounded-2xl bg-blue-700 p-6">
 		<a href="https://github.com/kattenelvis" target="_blank">GitHub</a>
+		<a href="https://soundcloud.com/katten-elvis" target="_blank">Soundcloud</a>
+		<a href="https://www.youtube.com/@kattenelvis1778" target="_blank">Youtube</a>
+		<a href="https://scratch.mit.edu/users/kattenelvis/" target="_blank">Scratch</a>
+		<a href="https://thephilosophyaddict.wordpress.com/" target="_blank">Philosophy Blog</a>
 	</div>
 </main>
+
+<style>
+	.vaporwave {
+		background: #ff2bff;
+		background: linear-gradient(125deg, rgba(255, 43, 255, 1) 0%, rgba(145, 121, 212, 1) 100%);
+	}
+
+	.edge {
+		box-shadow:
+			rgba(255, 43, 255, 1) 0 0 2rem 0.2rem,
+			inset rgba(145, 121, 212, 1) 0 0 1rem 0.2rem;
+	}
+</style>
