@@ -17,11 +17,15 @@
 			<img class="m-auto" src="clippy.gif" width="200px" alt="Clippy tapping the screen" />
 		</div>
 		<div class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6">
-			<Link href="https://github.com/kattenelvis" logo="Github.svg" />
-			<a href="https://soundcloud.com/katten-elvis" target="_blank">Soundcloud</a>
-			<a href="https://www.youtube.com/@kattenelvis1778" target="_blank">Youtube</a>
-			<a href="https://scratch.mit.edu/users/kattenelvis/" target="_blank">Scratch</a>
-			<a href="https://thephilosophyaddict.wordpress.com/" target="_blank">Philosophy Blog</a>
+			<Link name="GitHub" href="https://github.com/kattenelvis" logo="Github.svg" />
+			<Link name="Soundcloud" href="https://soundcloud.com/katten-elvis" logo="soundcloud.svg" />
+			<Link name="YouTube" href="https://www.youtube.com/@kattenelvis1778" logo="YouTube.svg" />
+			<Link name="Scratch" href="https://scratch.mit.edu/users/kattenelvis/" logo="scratch.svg" />
+			<Link
+				name="Philosophy Blog"
+				href="https://thephilosophyaddict.wordpress.com/"
+				logo="Phi.svg"
+			/>
 		</div>
 	</div>
 </main>

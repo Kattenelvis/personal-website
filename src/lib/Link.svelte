@@ -1,11 +1,11 @@
 <script lang="ts">
-	let { href = '', logo = '' } = $props();
+	let { href = '', logo = '', name = '' } = $props();
 </script>
 
-<div class="flex gap-2">
+<div class="flex gap-2 font-bold">
 	{#if logo}
 		<img width="20px" src={logo} alt={`logo for ${href}`} />
 	{/if}
 
-	<a {href} target="_blank">GitHub</a>
+	<a {href} target="_blank">{name}</a>
 </div>
