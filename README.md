@@ -1,3 +1,7 @@
+# My Personal website :D
+
+Welcome to my personal website, check out the current deployment at https://kattenelvis.netlify.app/ (Will put it up on my own URL later).
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm ci` start a development server:
@@ -19,4 +23,4 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+> To deploy the app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
