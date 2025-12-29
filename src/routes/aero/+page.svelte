@@ -1,11 +1,11 @@
 <div class="gradient">
-	<div class="justiy m-auto flex w-[80%] max-w-[1000px] flex-col bg-indigo-600 p-6 text-gray-300">
+	<div class="m-auto w-[80%] max-w-250 bg-indigo-600 p-6 font-bold text-gray-300">
 		<a href="/">Go Back</a> <br />
-		<div class="font-[TokyoSoft] text-4xl">Fruitiger Aero!</div>
+		<marquee class="font-[TokyoSoft] text-4xl">Fruitiger Aero!</marquee>
 
-		<span> From the fruitiger aero page on the aesthethics wiki: </span>
+		<span class="font-[neuropol]"> From the fruitiger aero page on the aesthethics wiki: </span>
 
-		<div class="mt-6 font-[neuropol]">
+		<div class="mt-6 text-center font-[neuropol] text-shadow-2xs text-shadow-green-700">
 			Frutiger Aero (also known as Web 2.0 Gloss) is a design aesthetic that was prevalent from
 			roughly 2005 to 2013, succeeding Y2K Futurism and overlapping with the Frutiger Metro and
 			Recession Pop aesthetics. It is characterized by its use of skeuomorphism, glossy textures,
@@ -14,7 +14,7 @@
 			colors (typically white, green, and blue). The aesthetic's timeline coincides with the early
 			days of Web 2.0 and the transition from feature phones to smartphones.
 		</div>
-		<div class="mt-6 font-[neuropol]">
+		<div class="mt-6 text-center font-[neuropol] text-shadow-black text-shadow-xs">
 			This aesthetic was originally unnamed; at the time, its visual elements were often associated
 			with specific hardware and software elements depicted in box art and promotional material
 			(e.g. Windows Aero, iOS's skeuomorphic icons, and the visuals of Mirror's Edge and Spore)
@@ -27,5 +27,29 @@
 		<video class="m-auto mt-6" src="ai_friend.mp4" controls width="400px">
 			<track kind="captions" />
 		</video>
+
+		<video class="m-auto mt-6" src="2040real.mp4" controls width="400px">
+			<track kind="captions" />
+		</video>
+
+		<video class="m-auto mt-6" src="silly.mp4" controls width="400px">
+			<track kind="captions" />
+		</video>
+
+		<img
+			class="m-auto mt-6"
+			width="600px"
+			src="ena_on_windows.webp"
+			alt="Wojak with Fruitiger Aero aesethethics"
+		/>
+		<span class="mt-2 block w-full text-center font-[neuropol]">
+			ENA on the windows machine. Check out the ENA webseries!</span
+		>
+		<img
+			class="m-auto mt-6"
+			width="600px"
+			src="fruitjack.jpg"
+			alt="Wojak with Fruitiger Aero aesethethics"
+		/>
 	</div>
 </div>

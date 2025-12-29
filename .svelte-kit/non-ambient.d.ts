@@ -40,6 +40,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/aero" | "/aero/" | "/demo" | "/demo/" | "/demo/paraglide" | "/demo/paraglide/" | "/skills" | "/skills/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/Arch_Linux.png" | "/Hyprland.png" | "/Javascript.png" | "/Linux_Mint.png" | "/NixOS.webp" | "/React_Logo.png" | "/Rotating_Tux.gif" | "/Svelte_Logo.png" | "/TokyoSoft.ttf" | "/Vue_Logo.png" | "/ai_friend.mp4" | "/isdp06kzkz9g1.mp4" | "/neuropol.ttf" | "/robots.txt" | string & {};
+		Asset(): "/2040real.mp4" | "/Arch_Linux.png" | "/Hyprland.png" | "/Javascript.png" | "/Linux_Mint.png" | "/NixOS.webp" | "/React_Logo.png" | "/Rotating_Tux.gif" | "/Svelte_Logo.png" | "/TokyoSoft.ttf" | "/Vue_Logo.png" | "/ai_friend.mp4" | "/ena_on_windows.webp" | "/fruitjack.jpg" | "/mysite.mp4" | "/neuropol.ttf" | "/robots.txt" | "/silly.mp4" | string & {};
 	}
 }
