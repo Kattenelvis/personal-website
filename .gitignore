@@ -1,2 +1,6 @@
 node_modules
 .svelte-kit
+.vscode
+.storybook
+
+
