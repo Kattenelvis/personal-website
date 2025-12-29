@@ -1,9 +1,8 @@
 <script lang="ts">
-	import { randomInt } from 'node:crypto';
 	import { onMount } from 'svelte';
 
-	const X = 10,
-		Y = 10;
+	const X = 100,
+		Y = 100;
 	let grid = new Array(Y).fill(new Array(X).fill(0));
 
 	const gameTick = () => {
@@ -12,8 +11,8 @@
 				const element: HTMLElement | null = document.querySelector(`#block-${i}-${j}`);
 				if (!element) continue;
 
-				let random = randomInt(255);
-				if (i % 3 === 0) element.style.backgroundColor = `rgb(${random},200,220)`;
+				let random = Math.floor(Math.random() * 255);
+				element.style.backgroundColor = `rgb(${random},200,220)`;
 			}
 		}
 	};
@@ -26,7 +25,7 @@
 		automata.style.display = 'grid';
 		automata.style.gridTemplateColumns = 'repeat(10, 1fr)';
 		automata.style.gridTemplateRows = 'repeat(10, 1fr)';
-		gameTick();
+		setInterval(gameTick, 1000);
 	});
 </script>
 
