@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	const X = 100,
-		Y = 100;
+	const X = 50,
+		Y = 50;
 	let grid = new Array(Y).fill(new Array(X).fill(0));
 
 	const gameTick = () => {
@@ -11,8 +11,8 @@
 				const element: HTMLElement | null = document.querySelector(`#block-${i}-${j}`);
 				if (!element) continue;
 
-				let random = Math.floor(Math.random() * 255);
-				element.style.backgroundColor = `rgb(${random},200,220)`;
+				let random = Math.floor(Math.random() * 200);
+				element.style.backgroundColor = `rgb(${55 + random},100,210)`;
 			}
 		}
 	};
@@ -23,8 +23,8 @@
 		if (!automata) return;
 
 		automata.style.display = 'grid';
-		automata.style.gridTemplateColumns = 'repeat(10, 1fr)';
-		automata.style.gridTemplateRows = 'repeat(10, 1fr)';
+		automata.style.gridTemplateColumns = `repeat(${X}, 1fr)`;
+		automata.style.gridTemplateRows = `repeat(${Y}, 1fr)`;
 		setInterval(gameTick, 1000);
 	});
 </script>
