@@ -16,6 +16,22 @@
 			<img class="m-auto" src="niko-oneshot.gif" width="200px" alt="Clippy tapping the screen" />
 			<img class="m-auto" src="clippy.gif" width="200px" alt="Clippy tapping the screen" />
 		</div>
+
+		<div
+			class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6 font-bold text-shadow-purple-600 text-shadow-xs"
+		>
+			<span>
+				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
+				logic, maps, tech and more. I currently work for the non-profit "association for digital
+				democracy" which develops Flowback, a tool for better, more rational decision making. We're
+				a non profit and Flowback is completely open source.
+			</span>
+			<span class="mt-4">
+				This website was made in 2025. No AI slop was used in the making of this website. The
+				website has source code availible.
+			</span>
+		</div>
+
 		<div class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6">
 			<Link name="GitHub" href="https://github.com/kattenelvis" logo="Github.svg" />
 			<Link name="Soundcloud" href="https://soundcloud.com/katten-elvis" logo="soundcloud.svg" />
