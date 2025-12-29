@@ -44,5 +44,18 @@
 		text-shadow: 0rem 0rem 0.1rem white;
 		padding-left: 0.8rem;
 		padding-right: 0.8rem;
+		transition: box-shadow 0.1s linear;
+	}
+
+	.glassy:hover {
+		box-shadow:
+			0 0 0.7rem 0 white,
+			inset 0 0 0.7rem 0 white;
+	}
+
+	.glassy:active {
+		box-shadow:
+			0 0 0.6rem 0 white,
+			inset 0 0 0.6rem 0 white;
 	}
 </style>

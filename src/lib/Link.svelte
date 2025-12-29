@@ -7,5 +7,5 @@
 		<img width="20px" src={logo} alt={`logo for ${href}`} />
 	{/if}
 
-	<a {href} target="_blank">{name}</a>
+	<a class="hover:underline" {href} target="_blank">{name}</a>
 </div>
