@@ -3,8 +3,8 @@
 	import Link from '$lib/Link.svelte';
 </script>
 
-<main class="vaporwave min-h-screen pb-12 text-gray-300">
-	<div class="m-auto max-w-250">
+<main class="vaporwave relative min-h-screen text-gray-300">
+	<div class="relative z-10 m-auto max-w-250">
 		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-6xl">
 			Hello! I am Kattenelvis (or Emil)
 		</h1>
@@ -19,7 +19,7 @@
 		</div>
 
 		<div
-			class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6 font-bold text-shadow-purple-600 text-shadow-xs"
+			class="edge z-10 m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6 font-bold text-shadow-purple-600 text-shadow-xs"
 		>
 			<span>
 				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
@@ -45,6 +45,7 @@
 			/>
 		</div>
 	</div>
+	<Cellular Class="z-0 top-0 absolute" />
 </main>
 
 <style>

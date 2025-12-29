@@ -7,6 +7,8 @@
 	let grid = $state(new Array(Y).fill(new Array(X).fill(255))),
 		interval: any;
 
+	let { Class = '' } = $props();
+
 	const gameTick = () => {
 		let newGrid = deepCopy(grid);
 
@@ -50,7 +52,7 @@
 	});
 </script>
 
-<div id="automata" class="h-screen w-full">
+<div id="automata" class={`${Class} h-screen w-full`}>
 	{#each grid as y, i}
 		{#each y as x, j}
 			<div id={`block-${i}-${j}`}></div>
