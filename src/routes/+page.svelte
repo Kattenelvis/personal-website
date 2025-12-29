@@ -3,14 +3,14 @@
 	import Link from '$lib/Link.svelte';
 </script>
 
-<main class="cell-bg-color-match min-h-screen pb-6 text-gray-300">
+<main class="cell-bg-color-match relative min-h-screen text-gray-300">
 	<div class="pointer-events-none relative z-10 m-auto max-w-250">
-		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-6xl">
+		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-3xl sm:text-6xl">
 			Hello! I am Kattenelvis (or Emil)
 		</h1>
 
 		<div
-			class="edge m-auto mt-12 flex w-[70%] flex-col rounded-2xl bg-blue-600 p-6 font-bold text-shadow-purple-600 text-shadow-xs"
+			class="edge m-auto mt-12 flex w-full flex-col rounded-2xl bg-blue-600 p-4 font-bold text-shadow-purple-600 text-shadow-xs sm:w-[80%] sm:p-6 md:w-[70%]"
 		>
 			<span>
 				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
@@ -44,8 +44,7 @@
 			<img class="m-auto" src="clippy.gif" width="200px" alt="Clippy tapping the screen" />
 		</div>
 	</div>
-	<!-- TODO: Make sure to make this dynamic, don't hard code h-260 -->
-	<Cellular Class="z-0 top-0 absolute h-260" />
+	<Cellular Class="z-0 top-0 absolute bottom-0" />
 </main>
 
 <style>
