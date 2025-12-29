@@ -55,5 +55,15 @@
 			src="fruitjack.jpg"
 			alt="Wojak with Frutiger Aero aesethethics"
 		/>
+
+		<img
+			class="m-auto mt-6"
+			width="600px"
+			src="xbox720.webp"
+			alt="Xbox720 prediction from the early 2010s"
+		/>
+		<span class="mt-2 block w-full text-center font-[neuropol]">
+			Xbox720 prediction from the early 2010s</span
+		>
 	</div>
 </div>
