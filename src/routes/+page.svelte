@@ -1,4 +1,4 @@
-<main class="bg-gray-800 text-gray-300">
+<main class="min-h-screen bg-gray-800 text-gray-300">
 	Hello! I am Kattenelvis (or Emil)
 
 	<!-- TODO: They all go to soundcloud, fix later -->
@@ -12,8 +12,9 @@
 	</div>
 
 	<div class="flex flex-col">
-		<a class="gradient" href="/aero">Fruity!</a> <br />
-		<a class="" href="/skills">Skills!</a> <br />
+		<a class="gradient" href="/aero">Fruity!</a>
+
+		<a class="glassy" href="/skills">Skills!</a>
 	</div>
 
 	<form>
@@ -22,7 +23,25 @@
 		<textarea class="mt-2 block" placeholder="Message"></textarea>
 	</form>
 
-	<video class="m-auto" src="mysite.mp4" loop autoplay width="200px">
-		<track kind="captions" />
-	</video>
+	<div class="mt-6 flex w-full justify-between">
+		<video class="m-auto" src="mysite.mp4" loop autoplay width="200px">
+			<track kind="captions" />
+		</video>
+
+		<img class="m-auto" src="clippy.gif" alt="Clippy tapping the screen" />
+	</div>
 </main>
+
+<style>
+	.glassy {
+		border-radius: 10px;
+		display: inline;
+		position: relative;
+		box-shadow:
+			0 0 0.5rem 0 white,
+			inset 0 0 0.5rem 0 white;
+		text-align: center;
+		font-family: Neuropol;
+		text-shadow: 0 0 1rem 0px white;
+	}
+</style>
