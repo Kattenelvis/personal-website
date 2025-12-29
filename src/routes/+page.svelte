@@ -4,7 +4,7 @@
 
 <main class="vaporwave min-h-screen pb-12 text-gray-300">
 	<div class="m-auto max-w-250">
-		<h1 class="w-full pt-12 text-center font-[Vorpal] text-6xl">
+		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-6xl">
 			Hello! I am Kattenelvis (or Emil)
 		</h1>
 
@@ -27,8 +27,8 @@
 				a non profit and Flowback is completely open source.
 			</span>
 			<span class="mt-4">
-				This website was made in 2025. No AI slop was used in the making of this website. The
-				website has source code availible.
+				This website was made in 2025. This website is not AI slop made. The website is open source,
+				check out the source code here.
 			</span>
 		</div>
 
@@ -56,5 +56,11 @@
 		box-shadow:
 			rgba(255, 43, 255, 1) 0 0 2rem 0.2rem,
 			inset rgba(145, 121, 212, 1) 0 0 1rem 0.2rem;
+	}
+
+	.title-shadow {
+		text-shadow:
+			3px 3px 4rem rgb(150, 100, 255),
+			-3px -3px 1rem rgb(200, 200, 200);
 	}
 </style>

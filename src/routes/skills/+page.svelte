@@ -36,23 +36,33 @@
 
 			<div>Linux is Awesome</div>
 
+			<span
+				>Windows 11 updates without power connection eventually lead to a corrupt operating system.
+				By some recommendation from friends, I downloaded Linux Mint. It was a great learning
+				experience and taught me a lot about Linux. I then moved over to Omarchy. It is hyped, but
+				the hype is not wrong when one doesn't now much about Linux. It includes a lot of neat
+				tools, such as Hyprland, Alacritty (now Ghostty), fzf and a lot more. Many who are used to
+				Arch won't like this, and some things such as the focus on Chromium I dislike. But Omarchy
+				is just the beginning. I have a NixOS installation that I will be fully customizing,
+				inspired by Omarchy.</span
+			>
 			<img src="Rotating_Tux.gif" width="180px" alt="Rotating Linux Penguin" />
 			<div class="flex gap-2">
-				<Skill logo={'NixOS.webp'} alt="NixOS Logo" />
 				<Skill logo={'Linux_Mint.png'} alt="Linux Mint Logo" />
 				<Skill logo={'Arch_Linux.png'} alt="Arch Logo" />
 				<Skill logo={'Hyprland.png'} alt="Hyprland Logo" />
+				<Skill logo={'NixOS.webp'} alt="NixOS Logo" />
 			</div>
 		</div>
 
-		TODO
+		Other skills I will add later:
 		<ul>
 			<li>Backend</li>
 			<li>Databases</li>
 			<li>Formal Verification, Logic, Haskell</li>
 			<li>Playwright testing and so on</li>
 			<li>CI/CD, Docker stuff</li>
-			<li>Python, Data Analysis, RL, Multi-agent modelling</li>
+			<li>Python, Data Analysis, RL, AI Agents</li>
 			<li>Low level (Rust, C++)</li>
 			<li>Game Dev</li>
 			<li>IDE's like Neovim</li>
