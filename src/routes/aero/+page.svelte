@@ -1,9 +1,10 @@
 <div class="gradient h-screen text-gray-300">
 	<a href="/">Go Back</a> <br />
-	<div>Fruity!</div>
+	<div class="font-[TokyoSoft] text-4xl">Fruitiger Aero!</div>
 
-	From the fruitiger aero page on the aesthethics wiki:
-	<blockquote>
+	<span> From the fruitiger aero page on the aesthethics wiki: </span>
+
+	<div class="mt-6 font-[neuropol]">
 		Frutiger Aero (also known as Web 2.0 Gloss) is a design aesthetic that was prevalent from
 		roughly 2005 to 2013, succeeding Y2K Futurism and overlapping with the Frutiger Metro and
 		Recession Pop aesthetics. It is characterized by its use of skeuomorphism, glossy textures,
@@ -11,8 +12,8 @@
 		aero glass, bokeh, Frutiger fonts, abstract tech, auroras, and bright, vibrant colors (typically
 		white, green, and blue). The aesthetic's timeline coincides with the early days of Web 2.0 and
 		the transition from feature phones to smartphones.
-	</blockquote>
-	<blockquote>
+	</div>
+	<div class="mt-6 font-[neuropol]">
 		This aesthetic was originally unnamed; at the time, its visual elements were often associated
 		with specific hardware and software elements depicted in box art and promotional material (e.g.
 		Windows Aero, iOS's skeuomorphic icons, and the visuals of Mirror's Edge and Spore) rather than
@@ -20,5 +21,5 @@
 		mainstream period, this term described a specific aspect of Frutiger Aero rather than the
 		aesthetic as a whole. Frutiger Aero encompasses many subgenres and related aesthetics, including
 		Frutiger Metro, Technozen, and Frutiger Eco.
-	</blockquote>
+	</div>
 </div>
