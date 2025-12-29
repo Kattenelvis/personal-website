@@ -14,12 +14,16 @@
 				const element: HTMLElement | null = document.querySelector(`#block-${i}-${j}`);
 				if (!element) continue;
 
-				let random = Math.floor(Math.random() * 100);
+				let random = Math.floor(Math.random() * 500);
 
-				if (i > 0 && grid[i - 1][j] < 30) newGrid[i][j] = 0;
-				// if (i < grid.length && grid[i + 1][j] < 30) newGrid[i][j] = 0;
+				const cutoff = 20;
+				if (i > 0 && grid[i - 1][j] < cutoff) newGrid[i][j] = 0;
+				if (i < grid.length - 1 && grid[i + 1][j] < cutoff) newGrid[i][j] = 0;
+				if (j > 0 && grid[i][j - 1] < cutoff) newGrid[i][j] = 0;
+				if (j < grid[i].length - 1 && grid[i][j + 1] < cutoff) newGrid[i][j] = 0;
 				if (random === 0) newGrid[i][j] = 0;
-				else newGrid[i][j] += 10;
+
+				newGrid[i][j] += 10;
 
 				element.style.backgroundColor = `rgb(${180 + newGrid[i][j]},100,210)`;
 			}
