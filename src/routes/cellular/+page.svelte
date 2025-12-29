@@ -3,18 +3,26 @@
 
 	const X = 50,
 		Y = 50;
-	let grid = new Array(Y).fill(new Array(X).fill(0));
+	let grid = $state(new Array(Y).fill(new Array(X).fill(0)));
 
 	const gameTick = () => {
+		console.log('hello');
+		let newGrid = grid;
+
 		for (let i = 0; i < grid.length; i++) {
 			for (let j = 0; j < grid[i].length; j++) {
 				const element: HTMLElement | null = document.querySelector(`#block-${i}-${j}`);
 				if (!element) continue;
 
-				let random = Math.floor(Math.random() * 200);
-				element.style.backgroundColor = `rgb(${55 + random},100,210)`;
+				let random = Math.floor(Math.random() * 100);
+				if (random === 0) newGrid[i][j] = 0;
+				else newGrid[i][j] += 10;
+
+				element.style.backgroundColor = `rgb(${128 + newGrid[i][j]},100,210)`;
 			}
 		}
+
+		grid = newGrid;
 	};
 
 	onMount(() => {
@@ -32,7 +40,7 @@
 <div id="automata" class="h-screen w-full">
 	{#each grid as y, i}
 		{#each y as x, j}
-			<div id={`block-${i}-${j}`} class="bg-blue-500"></div>
+			<div id={`block-${i}-${j}`}></div>
 		{/each}
 	{/each}
 </div>
