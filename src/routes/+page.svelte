@@ -11,12 +11,6 @@
 		<a href="https://github.com/kattenelvis" target="_blank">GitHub</a>
 	</div>
 
-	<div class="flex flex-col">
-		<a class="gradient" href="/aero">Fruity!</a>
-
-		<a class="glassy" href="/skills">Skills!</a>
-	</div>
-
 	<form>
 		<div>Contact me!</div>
 		<input class="block" type="text" placeholder="Name" />
@@ -31,17 +25,3 @@
 		<img class="m-auto" src="clippy.gif" alt="Clippy tapping the screen" />
 	</div>
 </main>
-
-<style>
-	.glassy {
-		border-radius: 10px;
-		display: inline;
-		position: relative;
-		box-shadow:
-			0 0 0.5rem 0 white,
-			inset 0 0 0.5rem 0 white;
-		text-align: center;
-		font-family: Neuropol;
-		text-shadow: 0 0 1rem 0px white;
-	}
-</style>

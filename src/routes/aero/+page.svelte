@@ -1,6 +1,5 @@
 <div class="gradient">
 	<div class="m-auto w-[80%] max-w-250 bg-indigo-600 p-6 font-bold text-gray-300">
-		<a href="/">Go Back</a> <br />
 		<marquee class="font-[TokyoSoft] text-4xl">Fruitiger Aero!</marquee>
 
 		<span class="font-[neuropol]"> From the fruitiger aero page on the aesthethics wiki: </span>

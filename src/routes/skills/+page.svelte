@@ -4,7 +4,6 @@
 
 <main class="flex justify-center bg-purple-600 text-gray-300 shadow-xl">
 	<div class="w-[70vw] max-w-250 bg-gray-800 p-6 shadow-xl shadow-black">
-		<a href="/">Go Back</a> <br />
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
 			service. Frontend I am primarily experienced as a front-end developer, I love Svelte
