@@ -20,7 +20,11 @@
 			</span>
 			<span class="mt-4">
 				This website was made in 2025. This website is not AI slop made. The website is open source,
-				check out the source code here.
+				check out the source code <a
+					class="hover:underline"
+					href="https://github.com/Kattenelvis/personal-website"
+					target="_blank">here.</a
+				>
 			</span>
 		</div>
 
