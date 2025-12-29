@@ -7,7 +7,7 @@
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">Youtube</a>
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">Scratch</a>
 		<a href="https://soundcloud.com/katten-elvis" target="_blank">GitHub</a>
-		<a href="https://soundcloud.com/katten-elvis" target="_blank">Philosophy Blog</a>
+		<a href="https://thephilosophyaddict.wordpress.com/" target="_blank">Philosophy Blog</a>
 		<a href="https://github.com/kattenelvis" target="_blank">GitHub</a>
 	</div>
 

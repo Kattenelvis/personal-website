@@ -45,5 +45,19 @@
 				<Skill logo={'Hyprland.png'} alt="Hyprland Logo" />
 			</div>
 		</div>
+
+		TODO
+		<ul>
+			<li>Backend</li>
+			<li>Databases</li>
+			<li>Formal Verification, Logic, Haskell</li>
+			<li>Playwright testing and so on</li>
+			<li>CI/CD</li>
+			<li>Python, Data Analysis, RL, Multi-agent modelling</li>
+			<li>Low level (Rust)</li>
+			<li>Game Dev</li>
+			<li>Computer Science</li>
+			<li>Blockchain</li>
+		</ul>
 	</div>
 </main>
