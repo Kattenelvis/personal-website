@@ -1,13 +1,13 @@
 <script lang="ts">
+	import { deepCopy } from '$lib';
 	import { onMount } from 'svelte';
 
 	const X = 50,
 		Y = 50;
-	let grid = $state(new Array(Y).fill(new Array(X).fill(0)));
+	let grid = $state(new Array(Y).fill(new Array(X).fill(255)));
 
 	const gameTick = () => {
-		console.log('hello');
-		let newGrid = grid;
+		let newGrid = deepCopy(grid);
 
 		for (let i = 0; i < grid.length; i++) {
 			for (let j = 0; j < grid[i].length; j++) {
@@ -15,10 +15,13 @@
 				if (!element) continue;
 
 				let random = Math.floor(Math.random() * 100);
+
+				if (i > 0 && grid[i - 1][j] < 30) newGrid[i][j] = 0;
+				// if (i < grid.length && grid[i + 1][j] < 30) newGrid[i][j] = 0;
 				if (random === 0) newGrid[i][j] = 0;
 				else newGrid[i][j] += 10;
 
-				element.style.backgroundColor = `rgb(${128 + newGrid[i][j]},100,210)`;
+				element.style.backgroundColor = `rgb(${180 + newGrid[i][j]},100,210)`;
 			}
 		}
 
