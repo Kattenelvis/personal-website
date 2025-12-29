@@ -3,7 +3,7 @@
 </script>
 
 <main class="flex justify-center bg-purple-600 text-gray-300">
-	<div class="w-[70vw] max-w-250 bg-gray-800 p-6 shadow-xl shadow-black">
+	<div class="skill-shadow my-6 w-[70vw] max-w-250 bg-gray-800 p-6">
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
 			service. Frontend I am primarily experienced as a front-end developer, I love Svelte
@@ -61,3 +61,9 @@
 		</ul>
 	</div>
 </main>
+
+<style>
+	.skill-shadow {
+		box-shadow: 0 0 2rem 0.3rem indigo;
+	}
+</style>
