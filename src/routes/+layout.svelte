@@ -27,7 +27,7 @@
 	{/each}
 </div>
 
-<footer class="bg-gray-800 text-gray-300">
+<footer class="bottom absolute z-30 w-full bg-gray-800 text-gray-300">
 	<span class="block p-6 text-center"> Copyright-Free 2025 Emil. No Rights Reserved. </span>
 </footer>
 

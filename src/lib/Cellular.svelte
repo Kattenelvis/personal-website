@@ -52,7 +52,7 @@
 	});
 </script>
 
-<div id="automata" class={`${Class} h-screen w-full`}>
+<div id="automata" class={`${Class} w-full`}>
 	{#each grid as y, i}
 		{#each y as x, j}
 			<div
