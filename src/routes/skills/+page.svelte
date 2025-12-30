@@ -2,7 +2,7 @@
 	import Skill from '$lib/Skill.svelte';
 </script>
 
-<main class="vaporwave flex justify-center text-gray-300">
+<main class="vaporwave relative flex justify-center text-gray-300">
 	<div class="skill-shadow my-6 w-[90%] max-w-225 bg-gray-800 p-6 sm:w-[80%] sm:p-6 md:w-[70%]">
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
