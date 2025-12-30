@@ -55,12 +55,29 @@
 			</div>
 		</div>
 
-		<div>I've done Game Dev. TODO: Put the games here</div>
-		<div>
+		<div class="mt-6">I've done Game Dev. TODO: Put the games here</div>
+
+		<div class="mt-6">
 			I've also worked a lot with databases, mostly PostgreSQL, which is by far the best database
 			system. I've read a book on SQL.
 		</div>
-		<div>
+
+		<div class="mt-6">
+			I've worked a bit with Formal Verification, Logic, Haskell. One of my favourite university
+			coures was one on formal verification and classical "AI" (very rudamentary 70s era AI, but
+			it's actually very fascinating). With Agda I was able to proove the correctness of system
+			behavior. With Haskell I'm able to take the Lambda Calculus and make programs based on that,
+			how cool is that?
+		</div>
+
+		<div class="mt-6">
+			I've also developed programs in "low" level programming such as Rust and C++. I made a disease
+			spread simulator, reminder to put an image of it here. I'm also currently making a multi-agent
+			simulation system in Rust, that can simulate the voting pattern of billions of individuals (if
+			you have enough RAM).
+		</div>
+
+		<div class="mt-6">
 			<span>
 				Most Blockchain applications aren't super exciting to me. Most end up being scams, gambling
 				or pay-to-win games, although a particular kind of gambling (prediction markets) are very
@@ -76,17 +93,18 @@
 				will allow anyone to see that the votes have been correctly calculated.
 			</span>
 		</div>
-		Other skills I will add later:
-		<ul>
-			<li>Backend</li>
-			<li>Formal Verification, Logic, Haskell</li>
-			<li>Playwright testing and so on</li>
-			<li>CI/CD, Docker stuff</li>
-			<li>Python, Data Analysis, RL, AI Agents</li>
-			<li>Low level (Rust, C++)</li>
-			<li>IDE's like Neovim</li>
-			<li>Computer Science, Math</li>
-		</ul>
+
+		<div class="mt-6">
+			Other skills I will add later:
+			<ul>
+				<li>Backend</li>
+				<li>Playwright testing and so on</li>
+				<li>CI/CD, Docker stuff</li>
+				<li>Python, Data Analysis, RL, AI Agents</li>
+				<li>IDE's like Neovim</li>
+				<li>Computer Science, Math</li>
+			</ul>
+		</div>
 	</div>
 </main>
 
