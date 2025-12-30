@@ -2,7 +2,9 @@
 	<div
 		class="m-auto w-[80%] max-w-250 bg-indigo-600 p-6 font-bold text-gray-300 shadow-xl shadow-indigo-600"
 	>
-		<h1 class="w-full text-center font-[TokyoSoft] text-5xl">Frutiger Aero!</h1>
+		<h1 class="w-full text-center font-[TokyoSoft] text-3xl sm:text-4xl md:text-6xl">
+			Frutiger Aero!
+		</h1>
 		<span class="block w-full text-center">(Frutiger Aero)</span>
 
 		<span class="mt-6 block font-[neuropol]">

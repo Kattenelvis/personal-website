@@ -3,7 +3,7 @@
 </script>
 
 <main class="vaporwave flex justify-center text-gray-300">
-	<div class="skill-shadow my-6 w-[70vw] max-w-250 bg-gray-800 p-6">
+	<div class="skill-shadow my-6 w-[90%] max-w-225 bg-gray-800 p-6 sm:w-[80%] sm:p-6 md:w-[70%]">
 		<div>
 			I have a lot of technical skills I will mention here, in case anyone is interested in some
 			service. Frontend I am primarily experienced as a front-end developer, I love Svelte
@@ -55,19 +55,37 @@
 			</div>
 		</div>
 
+		<div>I've done Game Dev. TODO: Put the games here</div>
+		<div>
+			I've also worked a lot with databases, mostly PostgreSQL, which is by far the best database
+			system. I've read a book on SQL.
+		</div>
+		<div>
+			<span>
+				Most Blockchain applications aren't super exciting to me. Most end up being scams, gambling
+				or pay-to-win games, although a particular kind of gambling (prediction markets) are very
+				good. Gambling and employing insider information are prediction markets working as intended,
+				the consequence being that we get to know more beforehand than through other means. This is
+				why Polymarket was so good at predicting the US election and Nobel Prize winners.
+			</span>
+			<span>
+				Regardless, at Flowback I'm trying to develop a blockchain solution that works for digital
+				democracy. Making sure that a central server owner can't just willy nilly change the results
+				of an election is very important for securing digital democracy. Blockchain, when done right
+				(and doens't introduce new vulnerabilities), can prevent these issues. The global ledger
+				will allow anyone to see that the votes have been correctly calculated.
+			</span>
+		</div>
 		Other skills I will add later:
 		<ul>
 			<li>Backend</li>
-			<li>Databases</li>
 			<li>Formal Verification, Logic, Haskell</li>
 			<li>Playwright testing and so on</li>
 			<li>CI/CD, Docker stuff</li>
 			<li>Python, Data Analysis, RL, AI Agents</li>
 			<li>Low level (Rust, C++)</li>
-			<li>Game Dev</li>
 			<li>IDE's like Neovim</li>
 			<li>Computer Science, Math</li>
-			<li>Blockchain</li>
 		</ul>
 	</div>
 </main>

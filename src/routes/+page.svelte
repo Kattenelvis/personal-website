@@ -5,12 +5,14 @@
 
 <main class="cell-bg-color-match relative min-h-screen pb-6 text-gray-300">
 	<div class="pointer-events-none relative z-10 m-auto max-w-250">
-		<h1 class="title-shadow w-full pt-12 text-center font-[Vorpal] text-2xl sm:text-6xl">
+		<h1
+			class="title-shadow w-full pt-12 text-center font-[Vorpal] text-2xl sm:text-4xl md:text-6xl"
+		>
 			Hello! I am Kattenelvis (or Emil)
 		</h1>
 
 		<div
-			class="edge pointer-events-auto m-auto mt-12 flex w-full flex-col rounded-2xl bg-blue-600 p-4 font-bold text-shadow-purple-600 text-shadow-xs sm:w-[80%] sm:p-6 md:w-[70%]"
+			class="edge pointer-events-auto m-auto mt-12 flex w-[90%] flex-col rounded-2xl bg-blue-600 p-4 font-bold text-shadow-purple-600 text-shadow-xs sm:w-[80%] sm:p-6 md:w-[70%]"
 		>
 			<span>
 				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
