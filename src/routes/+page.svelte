@@ -16,9 +16,9 @@
 		>
 			<span>
 				Hello! My name is Emil, often known as Kattenelvis online. I love philosophy, programming,
-				logic, maps, tech and more. I currently work for the non-profit "association for digital
-				democracy" which develops Flowback, a tool for better, more rational decision making. We're
-				a non profit and Flowback is completely open source.
+				logic, maps, tech and more. I currently work for the non-profit "Association for Digital
+				Democracy" where I'm currently developing Flowback, a tool for better, more rational
+				decision making. We're a non profit and Flowback is completely open source.
 			</span>
 			<span class="mt-4">
 				This website was made in 2025. This website is not AI slop made. The website is open source,
