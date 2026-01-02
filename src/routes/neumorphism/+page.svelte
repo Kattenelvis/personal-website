@@ -9,11 +9,7 @@
 	<!-- <button class="neu-button absolute z-20 m-auto mt-24 w-full"> Click</button> -->
 	<!-- <div class="absolute top-[115px] left-0 z-0 w-full bg-purple-200 p-6"></div> -->
 
-	<div class="absolute bg-green-600 text-white">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quod officiis sint a optio
-		illo! Debitis dolorem consequuntur, doloremque est veritatis illo veniam animi laboriosam libero
-		excepturi inventore vel nulla.
-	</div>
+	<div class="polygon absolute bg-indigo-500 p-40 text-white"></div>
 
 	<div class=" neu-logo absolute top-20 right-200 rounded-full">
 		<img src="Arch_Linux.png" width="300px" class="rounded-full" />
@@ -48,6 +44,10 @@
 
 	.rotating {
 		animation: rotate 2s linear infinite;
+	}
+
+	.polygon {
+		clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 	}
 
 	.ephemereal {
