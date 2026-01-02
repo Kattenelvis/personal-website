@@ -24,6 +24,7 @@
 			<a class="glassy" href="/">Home</a>
 			<a class="gradient glassy" href="/aero">Aero!</a>
 			<a class="glassy bg-purple-600" href="/skills">Skills</a>
+			<a class="glassy bg-purple-600" href="/neumorphism">Skills 2</a>
 			<a class="glassy bg-green-500" href="/contact">Contact</a>
 		{/if}
 	</nav>

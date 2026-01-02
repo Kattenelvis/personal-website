@@ -8,7 +8,7 @@
 	{/if}
 
 	<div
-		class="rotating absolute top-1/2 left-1/2 -translate-1/2 rounded-full border-l-2 border-white p-28"
+		class="rotating absolute top-1/2 left-1/2 -translate-1/2 rounded-full border-l-2 border-white p-15"
 	></div>
 </div>
 
@@ -26,7 +26,7 @@
 	}
 
 	.rotating {
-		animation: rotate 2s linear infinite;
+		animation: rotate 3s linear infinite;
 	}
 
 	.neu-logo {
