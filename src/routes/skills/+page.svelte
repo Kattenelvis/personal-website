@@ -94,6 +94,14 @@
 			</span>
 		</div>
 
+		<div>
+			<span
+				>I have an interest in Software Architecture. One book I've been reading on the topic is
+				very interesting. While at work, the structure has been fairly monolithic, I have been
+				reading a lot on different kinds of architectures, their benefits and their downsides (such
+				as the microservices architecture).</span
+			>
+		</div>
 		<div class="mt-6">
 			Other skills I will add later:
 			<ul>
@@ -102,7 +110,6 @@
 				<li>CI/CD, Docker stuff</li>
 				<li>Python, Data Analysis, RL, AI Agents</li>
 				<li>IDE's like Neovim</li>
-				<li>Software Architecture</li>
 				<li>Design, UI, UX</li>
 				<li>Computer Science, Math</li>
 			</ul>
