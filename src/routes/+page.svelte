@@ -62,12 +62,12 @@
 				alt="Clippy tapping the screen"
 			/>
 		</div>
-    <img
-      class="pointer-events-auto z-50 m-auto"
-      src="Under_Construction_Pica.gif"
-      width="200px"
-      alt="Under Construction Gif"
-    />
+		<img
+			class="pointer-events-auto z-50 m-auto"
+			src="Under_Construction_Pica.gif"
+			width="200px"
+			alt="Under Construction Gif"
+		/>
 	</div>
 
 	<Cellular Class="z-0 top-0 absolute bottom-0" />

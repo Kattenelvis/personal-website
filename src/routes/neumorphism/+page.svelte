@@ -9,19 +9,19 @@
 	<!-- 	class="absolute top-25 left-25 z-10 inline cursor-pointer rounded-full border-black p-40 backdrop-blur-3xl" -->
 	<!-- ></button> -->
 
-	<div class="relative m-auto max-w-[1000px]">
+	<div class="relative m-auto max-w-250">
 		<div class="ephemereal absolute top-20 right-15 rounded-full"></div>
 		<!-- <div class="ephemereal-2 absolute top-[70%] left-[20%] rounded-full"></div> -->
 		<!-- <button class="neu-button absolute z-20 m-auto mt-24 w-full"> Click</button> -->
 		<!-- <div class="absolute top-[115px] left-0 z-0 w-full bg-purple-200 p-6"></div> -->
 		<!-- <div class="polygon absolute bg-indigo-500 p-40 text-white"></div> -->
 
-		<NeuLogo Class="z-20 right-55 top-15" width="100px" name={'NixOS'} src={'NixOS.webp'} />
+		<NeuLogo Class="z-20 right-30 top-50" width="100px" name={'NixOS'} src={'NixOS.webp'} />
 		<NeuLogo Class="z-20 right-15 top-20" width="100px" name={'Arch BTW'} src={'Arch_Linux.png'} />
-		<NeuLogo Class="z-20 right-30 top-50" width="100px" name={'Mint'} src={'Linux_Mint.png'} />
+		<NeuLogo Class="z-20 right-55 top-15" width="100px" name={'Mint'} src={'Linux_Mint.png'} />
 
 		<div class="neu-text">
-			<div class="w-[75%]">
+			<div class="w-[75%] font-[Rainbow]">
 				Windows 11 updates without power connection eventually lead to a corrupt operating system.
 				By some recommendation from friends, I downloaded Linux Mint. It was a great learning
 				experience and taught me a lot about Linux. I then moved over to Omarchy. It is hyped, but
