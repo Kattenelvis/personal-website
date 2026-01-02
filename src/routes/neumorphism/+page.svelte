@@ -1,13 +1,27 @@
 <main class="blue-green-gradient min-h-screen">
 	<!-- <div class="z-50 rounded-full p-12 backdrop-blur-xl"></div> -->
 
-	<div
-		class="absolute top-25 left-25 z-10 inline rounded-full border-black p-40 backdrop-blur-3xl"
-	></div>
-	<div class="ephemereal absolute top-1/2 left-1/2 rounded-full"></div>
-	<div class="ephemereal-2 absolute top-[70%] left-[20%] rounded-full"></div>
-	<button class="neu-button z-20 m-auto mt-24 w-full">Click</button>
-	<div class="absolute top-[120px] left-0 z-0 w-full bg-red-400 p-6"></div>
+	<!-- <button -->
+	<!-- 	class="absolute top-25 left-25 z-10 inline cursor-pointer rounded-full border-black p-40 backdrop-blur-3xl" -->
+	<!-- ></button> -->
+	<!-- <div class="ephemereal absolute top-1/2 left-1/2 rounded-full"></div> -->
+	<!-- <div class="ephemereal-2 absolute top-[70%] left-[20%] rounded-full"></div> -->
+	<!-- <button class="neu-button absolute z-20 m-auto mt-24 w-full"> Click</button> -->
+	<!-- <div class="absolute top-[115px] left-0 z-0 w-full bg-purple-200 p-6"></div> -->
+
+	<div class="absolute bg-green-600 text-white">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quod officiis sint a optio
+		illo! Debitis dolorem consequuntur, doloremque est veritatis illo veniam animi laboriosam libero
+		excepturi inventore vel nulla.
+	</div>
+
+	<div class=" neu-logo absolute top-20 right-200 rounded-full">
+		<img src="Arch_Linux.png" width="300px" class="rounded-full" />
+
+		<div
+			class="rotating absolute top-1/2 left-1/2 -translate-1/2 rounded-full border-l-2 border-white p-40"
+		></div>
+	</div>
 </main>
 
 <style>
@@ -18,6 +32,22 @@
 		100% {
 			box-shadow: 2px 2px 22rem 8rem rgb(0, 200, 185);
 		}
+	}
+
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(180deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	.rotating {
+		animation: rotate 2s linear infinite;
 	}
 
 	.ephemereal {
@@ -34,6 +64,7 @@
 		box-shadow: 2px 2px 22rem 8rem rgb(0, 200, 185);
 		transition: box-shadow linear 0.2s;
 	}
+
 	.ephemereal:hover {
 		box-shadow: 2px 2px 25rem 6rem rgb(100, 255, 200);
 	}
@@ -42,6 +73,27 @@
 		background: rgb(20, 70, 80);
 		/* background: #2442c7; */
 		/* background: linear-gradient(30deg, rgba(36, 66, 199, 1) 0%, rgba(35, 232, 97, 1) 100%); */
+	}
+
+	.neu-logo {
+		box-shadow:
+			inset 0 0 0 0 #bcbcbc,
+			4px 4px 15px 4px #bcbcbc,
+			-4px -4px 5px 4px #ffffff;
+		transition: box-shadow 0.2s ease-in-out;
+		color: #fdfdfd;
+		cursor: pointer;
+		backdrop-filter: blur(25px);
+	}
+
+	.neu-logo:hover {
+		box-shadow:
+			inset 4px 4px 5px 4px #bcbcbc,
+			4px 4px 5px 4px #bcbcbc,
+			-4px -4px 15px 4px #ffffff;
+		color: #fdfdfd;
+		cursor: pointer;
+		backdrop-filter: blur(25px);
 	}
 
 	.neu-button {
@@ -55,7 +107,7 @@
 		padding: 15px 40px;
 		transition: all 0.2s ease-in-out;
 		border: 2px solid rgb(206, 206, 206);
-		backdrop-filter: blur(250px);
+		backdrop-filter: blur(25px);
 	}
 
 	.neu-button:hover {
