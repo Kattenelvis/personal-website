@@ -10,6 +10,7 @@
 	};
 
 	onMount(() => {
+		width = viewportInRem();
 		window.addEventListener('resize', () => (width = viewportInRem()));
 	});
 </script>

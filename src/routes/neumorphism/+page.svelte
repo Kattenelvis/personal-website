@@ -1,3 +1,7 @@
+<script>
+	import NeuLogo from '$lib/NeuLogo.svelte';
+</script>
+
 <main class="blue-green-gradient min-h-screen">
 	<!-- <div class="z-50 rounded-full p-12 backdrop-blur-xl"></div> -->
 
@@ -9,15 +13,8 @@
 	<!-- <button class="neu-button absolute z-20 m-auto mt-24 w-full"> Click</button> -->
 	<!-- <div class="absolute top-[115px] left-0 z-0 w-full bg-purple-200 p-6"></div> -->
 
-	<div class="polygon absolute bg-indigo-500 p-40 text-white"></div>
-
-	<div class=" neu-logo absolute top-20 right-200 rounded-full">
-		<img src="Arch_Linux.png" width="300px" class="rounded-full" />
-
-		<div
-			class="rotating absolute top-1/2 left-1/2 -translate-1/2 rounded-full border-l-2 border-white p-40"
-		></div>
-	</div>
+	<!-- <div class="polygon absolute bg-indigo-500 p-40 text-white"></div> -->
+	<NeuLogo name={'Arch BTW'} src={'Arch_Linux.png'} />
 </main>
 
 <style>
