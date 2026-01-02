@@ -17,7 +17,7 @@
 
 <header class="sticky top-0 z-50 w-full">
 	<nav
-		class="flex flex-col items-center justify-center gap-3 bg-gray-800 p-3 text-white sm:flex-row"
+		class="flex flex-col items-center justify-center gap-3 bg-gray-800 p-1 text-white sm:flex-row sm:p-3"
 	>
 		<button onclick={() => (opened = !opened)} class="glassy sm:invisible">=</button>
 		{#if (width < 40 && opened) || width > 40}
