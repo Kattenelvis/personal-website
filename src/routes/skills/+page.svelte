@@ -102,6 +102,8 @@
 				<li>CI/CD, Docker stuff</li>
 				<li>Python, Data Analysis, RL, AI Agents</li>
 				<li>IDE's like Neovim</li>
+				<li>Software Architecture</li>
+				<li>Design, UI, UX</li>
 				<li>Computer Science, Math</li>
 			</ul>
 		</div>
