@@ -36,11 +36,11 @@
 		<div class="neu-text mt-6!">
 			<div class="w-[75%] font-[Rainbow]">
 				<p>
-					I have a lot of technical skills I will mention here, in case anyone is interested in some
-					service. Frontend I am primarily experienced as a front-end developer, I love Svelte, it's
-					probably the best front-end framework there is, only comparable to vue. I also have
-					experience in React but react is not as good in comparison. When it comes to styling I
-					know CSS, SCSS and of course Tailwind that everyone is always on about.
+					When it comes to Frontend I have many years of professional experience building an entire
+					frontend from scratch, including a component library. I love Svelte, it's probably the
+					best front-end framework there is, only comparable to vue. I also have experience in React
+					but react is not as good in comparison. When it comes to styling I know CSS, SCSS and of
+					course Tailwind that everyone is always on about.
 				</p>
 			</div>
 		</div>

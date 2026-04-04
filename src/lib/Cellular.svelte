@@ -60,7 +60,14 @@
 					grid[i][j] = 0;
 				}}
 				id={`block-${i}-${j}`}
+				class="automata-square"
 			></div>
 		{/each}
 	{/each}
 </div>
+
+<style>
+	.automata-square {
+		transition: all 0.5s;
+	}
+</style>
