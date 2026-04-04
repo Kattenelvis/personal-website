@@ -4,9 +4,8 @@ Welcome to my personal website, check out the current deployment at https://katt
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm ci` start a development server:
-
 ```sh
+npm ci
 npm run dev
 
 # or start the server and open the app in a new browser tab
@@ -18,6 +17,7 @@ npm run dev -- --open
 To create a production version of the app:
 
 ```sh
+npm ci
 npm run build
 ```
 
