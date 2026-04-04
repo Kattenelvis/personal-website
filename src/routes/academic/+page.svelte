@@ -12,7 +12,12 @@
 	</div>
 
 	<div class={`bg-gray-600 p-${padding}`}>
-		<p>One of my favourite areas of study is Philosophy</p>
+		<p>
+			One of my favourite areas of study is Philosophy. I personal find studying philosophy
+			fulfilling. I enjoy theory crafting, argumentation, finding a 'basis' for science and
+			mathematics, aswell as figuring out what I ought to do. My favourite philosopher is Rudolph
+			Carnap.
+		</p>
 		<ul>
 			<li>History of Philosophy I and II</li>
 			<li>Philosophy of Science I and II</li>
@@ -25,6 +30,7 @@
 			<li>Philosophy of Physics</li>
 			<li>Philosophy of Mathematics</li>
 			<li>Philosophy of Language I and II</li>
+			<li>Decision Theory</li>
 		</ul>
 	</div>
 

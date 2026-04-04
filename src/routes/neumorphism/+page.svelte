@@ -2,7 +2,7 @@
 	import NeuLogo from '$lib/NeuLogo.svelte';
 </script>
 
-<main class="blue-green-gradient min-h-screen pt-6">
+<main class="blue-green-gradient min-h-screen py-6">
 	<!-- <div class="z-50 rounded-full p-12 backdrop-blur-xl"></div> -->
 
 	<!-- <button -->
@@ -22,14 +22,23 @@
 
 		<div class="neu-text">
 			<div class="w-[75%] font-[Rainbow]">
-				Windows 11 updates without power connection eventually lead to a corrupt operating system.
-				By some recommendation from friends, I downloaded Linux Mint. It was a great learning
-				experience and taught me a lot about Linux. I then moved over to Omarchy. It is hyped, but
-				the hype is not wrong when one doesn't now much about Linux. It includes a lot of neat
-				tools, such as Hyprland, Alacritty (now Ghostty), fzf and a lot more. Many who are used to
-				Arch won't like this, and some things such as the focus on Chromium I dislike. But Omarchy
-				is just the beginning. I have a NixOS installation that I will be fully customizing,
-				inspired by Omarchy.
+				<p>
+					Windows 11 updates without power connection eventually lead to a corrupt operating system.
+					By some recommendation from friends, I downloaded Linux Mint. It was a great learning
+					experience and taught me a lot about Linux. I then moved over to Omarchy. It is hyped, but
+					the hype is not wrong when one doesn't now much about Linux. It includes a lot of neat
+					tools, such as Hyprland, Alacritty (now Ghostty), fzf and a lot more. Many who are used to
+					Arch won't like this, and some things such as the focus on Chromium I dislike. I have a
+					NixOS installation on my laptop that I am customizing, inspired by Omarchy.
+				</p>
+
+				<p class="mt-6">
+					I also have work experience regarding linux administration. I have managed Ubuntu and
+					NixOS servers. On there I have ran all kinds of programs on those servers that people use,
+					from our Flowback project, to CRM systems, Jitsi meeting platform, Next Cloud, Forgejo and
+					so on. As you can tell we're a big fan of open source software, and want to replace teams,
+					drive and so on. It's also seen as a European plan to decouple from american interests.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -47,7 +56,7 @@
 
 	.neu-text > div {
 		backdrop-filter: blur(100px);
-		padding: 1rem;
+		padding: 2rem;
 	}
 
 	@keyframes changeColor {
