@@ -3,18 +3,8 @@
 </script>
 
 <main class="blue-green-gradient min-h-screen py-6">
-	<!-- <div class="z-50 rounded-full p-12 backdrop-blur-xl"></div> -->
-
-	<!-- <button -->
-	<!-- 	class="absolute top-25 left-25 z-10 inline cursor-pointer rounded-full border-black p-40 backdrop-blur-3xl" -->
-	<!-- ></button> -->
-
 	<div class="relative m-auto max-w-250">
 		<div class="ephemereal absolute top-20 right-15 rounded-full"></div>
-		<!-- <div class="ephemereal-2 absolute top-[70%] left-[20%] rounded-full"></div> -->
-		<!-- <button class="neu-button absolute z-20 m-auto mt-24 w-full"> Click</button> -->
-		<!-- <div class="absolute top-[115px] left-0 z-0 w-full bg-purple-200 p-6"></div> -->
-		<!-- <div class="polygon absolute bg-indigo-500 p-40 text-white"></div> -->
 
 		<NeuLogo Class="z-20 right-30 top-50" width="100px" name={'NixOS'} src={'NixOS.webp'} />
 		<NeuLogo Class="z-20 right-15 top-20" width="100px" name={'Arch BTW'} src={'Arch_Linux.png'} />
@@ -38,6 +28,19 @@
 					from our Flowback project, to CRM systems, Jitsi meeting platform, Next Cloud, Forgejo and
 					so on. As you can tell we're a big fan of open source software, and want to replace teams,
 					drive and so on. It's also seen as a European plan to decouple from american interests.
+				</p>
+			</div>
+		</div>
+
+		<NeuLogo Class="z-20 right-30 top-200" width="100px" name={'NixOS'} src={'Svelte_Logo.png'} />
+		<div class="neu-text mt-6!">
+			<div class="w-[75%] font-[Rainbow]">
+				<p>
+					I have a lot of technical skills I will mention here, in case anyone is interested in some
+					service. Frontend I am primarily experienced as a front-end developer, I love Svelte, it's
+					probably the best front-end framework there is, only comparable to vue. I also have
+					experience in React but react is not as good in comparison. When it comes to styling I
+					know CSS, SCSS and of course Tailwind that everyone is always on about.
 				</p>
 			</div>
 		</div>

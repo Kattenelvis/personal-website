@@ -4,7 +4,7 @@
 
 <div class={`neu-logo absolute ${Class} rounded-full`}>
 	{#if src}
-		<img {width} {src} alt={`logo for ${name}`} class="rounded-full" />
+		<img {width} {src} alt={`logo for ${name}`} class="aspect-square rounded-full" />
 	{/if}
 
 	<div
