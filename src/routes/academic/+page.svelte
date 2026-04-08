@@ -71,7 +71,7 @@
 		</ul>
 	</div>
 
-	<div class={`bg-blue-900 p-${padding}`}>
+	<div class={`bg-orange-900 p-${padding}`}>
 		<p>
 			Political Science! Politics is more fun when it's seen as an analysis of society and how to
 			optimize it, and not as a tribalistic fight
