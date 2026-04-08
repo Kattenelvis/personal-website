@@ -21,7 +21,7 @@
 				decision making. We're a non profit and Flowback is completely open source.
 			</span>
 			<span class="mt-4">
-				This website was made in 2025. This website is not AI slop made. The website is open source,
+				This website was made in 2025. This website is not AI made. The website is open source,
 				check out the source code <a
 					class="hover:underline"
 					href="https://github.com/Kattenelvis/personal-website"

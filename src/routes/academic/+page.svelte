@@ -7,7 +7,9 @@
 		<p>
 			I've also had an interesting academic career, primarily studying philosophy, logic, computer
 			science and mathematics. I've also spent a lot of time on Stanford Encyclopedia of Philosophy,
-			probably the best source for introductions to philosophical topics I've ever found.
+			probably the best source for introductions to philosophical topics I've ever found. Also,
+			since they force ugly fonts like Times new Roman you'll have to suffer with me too for this
+			page.
 		</p>
 	</div>
 
