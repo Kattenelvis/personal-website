@@ -62,6 +62,26 @@
 			<li>Web Development</li>
 		</ul>
 	</div>
+
+	<div class={`bg-blue-900 p-${padding}`}>
+		<p>BlueDot courses that focus on AI safety.</p>
+		<ul>
+			<li>Cooperative AI</li>
+			<li>AI Governance</li>
+		</ul>
+	</div>
+
+	<div class={`bg-blue-900 p-${padding}`}>
+		<p>
+			Political Science! Politics is more fun when it's seen as an analysis of society and how to
+			optimize it, and not as a tribalistic fight
+		</p>
+		<ul>
+			<li>Political Theory</li>
+			<li>Local Politics</li>
+			<li>International Politics (I'm a realist btw)</li>
+		</ul>
+	</div>
 </main>
 
 <style>
